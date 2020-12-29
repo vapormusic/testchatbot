@@ -1,0 +1,31 @@
+version: "2.0"
+
+intents:
+  - greet
+  - lich_hoc
+  - tu_van
+  - deep_learning
+  - certificate
+  - time
+
+responses:
+  utter_greet:
+  - text: "Chào bạn, mình là bot AI4E, mình có thể giúp gì cho bạn?"
+
+  utter_lich_hoc:
+  - text: "bạn xem thông tin chi tiết khóa học và lịch khai giảng các khóa ở đây nhé https://www.facebook.com/nttuan8.AI4E/photos/a.112595893653935/212634566983400"
+    
+  utter_tu_van:
+  - text: "Hiện tại mình có 3 khóa học:\n     Mathematics for machine learning\n     Python for data science\n     Deep learning\nBạn muốn tư vấn khóa nào vậy?"
+  
+  utter_deep_learning:
+  - text: "Khóa Deep Learning cơ bản dành cho các bạn có kiến thức nền về toán và lập trình Python.\nMục tiêu là cung cấp cho các bạn nền tảng toán cho Deep Learning cũng như hiểu các kĩ thuật chính trong Deep Learning để có thể tự nghiên cứu cũng như đi thực tập sau khóa học.\nChi tiết khóa học ở đây: https://www.facebook.com/.../a.112595.../112594880320703/..."
+  
+  utter_certificate:
+  - text: "Tất cả các khóa học đều có project cuối khóa, bên cạnh những kiến thức có được trong khóa học thì nếu bạn pass 70 điểm, trung tâm sẽ cấp chứng chỉ cho bạn nhé. Đặc biệt hơn nếu bạn thủ khoa khóa DL thì sẽ được đi thực tập tạp công ty icomm nhé."
+
+  utter_time:
+  - text: "Thông thường mỗi buổi học sẽ kéo dài 2 tiếng và mình học 2 buổi/ tuần nhé và kéo dài khoảng 12-14 buổi tùy khóa nhé"
+    
+session_config:
+  session_expiration_time: 60

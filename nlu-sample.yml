@@ -1,0 +1,83 @@
+version: "2.0"
+
+nlu:
+- intent: greet
+  examples: 
+    - hey
+    - hello
+    - hi
+    - hello there
+    - yo
+    - em chào anh
+    - chào ad
+    - chào page
+    - chào anh Tuấn
+    - chào bot nhé
+
+- intent: lich_hoc
+  examples: 
+    - lớp bao giờ khai giảng vậy?
+    - Cho em hỏi khoá python for data science bao giờ có khoá mới ạ
+    - ad cho em hỏi là khi nào mở khóa học thế ạ?
+    - Không biết gần đây nhóm có mở thêm khóa học nào nữa không?
+    - Cho mình xin thông tin khóa với 
+    - hallo, cho mình hỏi khoá này còn nhận học viên không, vì mình hôm nay mới thấy bài viết
+    - em muốn tham khảo thêm về khoá học ạ
+    - bao giờ có khóa mới
+    - mình hỏi khai giảng cơ mà
+    - lịch khai giảng
+    - khai giảng
+    - Page ơi cho mình hỏi đợt này bên mình có tổ chức khóa học nào về deep learning cơ bản không ạ.
+    - khóa python bao giờ mở
+    - khóa DL bao giờ mở
+    - khóa math bao giờ mở
+    - lich học thế nào
+    - Thời lượng buổi học là bao nhiêu hả bạn
+    - Một tuần học mấy buổi
+    - Khóa học kéo dài bao lâu
+    - Bạn có thể cho mình biết thời gian?
+    - em rất muốn tìm hiểu về ML-DL, không biết gần đây nhóm có mở thêm lớp học nào k ạ ?
+    - Khoá ofline sau khoá này gần nhất là khoảng bao h ạ
+
+- intent: tu_van
+  examples: 
+    - Bên bạn có những khoá học gì
+    - Bạn tư vấn chung cho mình được không
+    - Bạn tư vấn chung về khóa học này cho mình với
+    - Bạn giới thiệu chung về khóa học cho mình
+    - Trung tâm có những khóa học nào vậy
+    - Bạn có những khóa học nào
+    - tu vấn giúp mình khóa học
+    - Bạn có thể giới thiệu chung Nội dung về các khóa học là gì được không?
+    - Mình muốn hỏi chút 
+    - Bạn ơi cho mình hỏi
+    - Bạn có thể giới thiệu cho mình một vài khóa học được không
+    - B tư vấn cho mình với
+    - Bạn tư vấn cho mình với
+    - Mình đang muốn tham khảo 2 khóa học này, page tư vấn giúp mình với ạ
+
+- intent: deep_learning
+  examples: 
+    - tư vấn khóa DL
+    - tư vấn cho mình khóa deep learning
+    - Anh ơi tư vấn giúp em khóa deep learning cơ bản với ạ
+    - Khóa deep learning
+    - Mình đạt được gì sau khi học xong khóa DL
+    - Mình đạt được gì sau khi học xong khóa deep
+    - Mình đạt được gì sau khi học xong khóa deep learning
+    - Em muốn hỏi khoá Deep learning cơ bản ạ
+
+- intent: certificate
+  examples: 
+    - Mình đạt được gì sau khi học xong khóa
+    - Cuối khoá có project gì không bạn
+    - Học xong mình có certificate không
+    - nếu hoàn thiện khoá học có được tạo điều kiện xin thực tập thêm hay được join vào nhóm nào đó để làm thêm các project k ạ?
+    - học này xong đc cấp chứng chỉ j ko a
+    - có khả năng xin đc việc luôn ko a
+    
+- intent: time
+  examples: 
+    - Mỗi buổi học kéo dài bao lâu
+    - Mỗi buổi bao tiếng
+    - Học bao nhiêu buổi vậy bạn
